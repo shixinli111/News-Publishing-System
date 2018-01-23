@@ -2,7 +2,7 @@
 <html>
 
 <head>
-<title>BusinessNews</title>
+<title>BusinessNews - Top News</title>
 
 <meta name="keywords" content="" />
 <meta name="description" content="" />
@@ -15,9 +15,9 @@
 <![endif]-->
 
 <link rel="stylesheet" href="layout/style.css" type="text/css" />
-<link href="layout/style1.css" rel="stylesheet" type="text/css" />
-<link href="layout/style2.css" rel="stylesheet" type="text/css" />
-<link href="layout/style3.css" rel="stylesheet" type="text/css" />
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css" />
+<link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet" type="text/css" />
+<link href="http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic" rel="stylesheet" type="text/css" />
 
 <script type="text/javascript" src="layout/js/jquery.js"></script>
 
@@ -149,37 +149,16 @@
                 	<div class="inner">
                     	<nav class="main_menu">
                         	<ul>
-								<li class="current_page_item"><a href="index.html">Home</a>
+								<li><a href="index.html">Home</a>
                                 	
                                     <ul>
                                     	<li><a href="index.html">Home Page Style 1</a></li>
                                         <li><a href="home_style_2.html">Home Page Style 2</a></li>
                                     </ul>
                                 </li>
-							  	<li  data-content="business"><a href="business.html">Business</a>
-                                <ul>
-                                        <li><a href="#">Business</a></li>
-                                        <li><a href="#">Money</a></li>
-                                        <li><a href="#">Isnvestor Programs</a></li>
-                                        <li><a href="#">Banks</a></li>
-                                    </ul>
-                                </li>
-							  	<li data-content="technology"><a href="technology.html">Technology</a>
-                                <ul>
-                                        <li><a href="#">Web Development</a></li>
-                                        <li><a href="#">Programming</a></li>
-                                        <li><a href="#">Techique</a></li>
-                                        <li><a href="#">Cars</a></li>
-                                    </ul>
-                                </li>
-							  	<li  data-content="education"><a href="education.html">Education</a>
-                                    <ul>
-                                        <li><a href="#">High school</a></li>
-                                        <li><a href="#">Univercity</a></li>
-                                        <li><a href="#">College</a></li>
-                                        <li><a href="#">Students</a></li>
-                                    </ul>
-                                </li>
+							  	<li class="big_dropdown" data-content="business"><a href="business.html">Business</a></li>
+							  	<li class="big_dropdown" data-content="technology"><a href="technology.html">Technology</a></li>
+							  	<li class="big_dropdown" data-content="education"><a href="education.html">Education</a></li>
 							  	<li><a href="media.html">Media</a>
                                 	
                                     <ul>
@@ -232,8 +211,7 @@
                     </div>
                 </section>
                 
-               <!-- 原样式 -->
-               <!--  <section class="section_big_dropdown">
+                <section class="section_big_dropdown">
                 	<div class="inner">
                     	<div class="block_big_dropdown" data-menu="business">
                         	<div class="content">
@@ -352,7 +330,7 @@
                             </div>
                         </div>
                     </div>
-              	</section> -->
+              	</section>
                 
                 <section class="section_secondary_menu">
                 	<div class="inner">
@@ -382,268 +360,260 @@
         	<div class="inner">
             	<div class="general_content">
                 	<div class="main_content">
-                    	<div class="block_special_topic">
-                        	<div class="type"><p>Special topics</p></div>
-                            <div class="title"><p><a href="#">long established fact that a reader be distracted.</a></p></div>
+                    	<div class="block_breadcrumbs">
+                        	<div class="text"><p>You are here:</p></div>
+                            
+                            <ul>
+                            	<li><a href="index.html">Home</a></li>
+                                <li>Top News</li>
+                            </ul>
                         </div>
-                        <div class="separator" style="height:17px;"></div>
+                        <div class="separator" style="height:30px;"></div>
                         
-                        <div class="block_home_slider">
-                        	<div id="home_slider" class="flexslider">
-                            	<ul class="slides">
-                                	<li>
-                                    	<div class="slide">
-                                            <img src="images/pic_home_slider_1.jpg" alt="" />
-                                            <div class="caption">
-                                                <p class="title">Many desktop publishing packages and web page.</p>
-                                                <p>There are many variations of passages of available, but the majority have suffered alteration in some form, by injected humour, or randomised.</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    
-                                    <li>
-                                    	<div class="slide">
-                                            <img src="images/pic_home_slider_2.jpg" alt="" />
-                                            <div class="caption">
-                                                <p class="title">Many desktop publishing packages.</p>
-                                                <p>There are many variations of passages of available, but the majority have suffered alteration in some form, by injected humour, or randomised.</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    
-                                    <li>
-                                    	<div class="slide">
-                                            <img src="images/pic_home_slider_3.jpg" alt="" />
-                                            <div class="caption">
-                                                <p class="title">Many desktop publishing packages and web page.</p>
-                                                <p>There are many variations of passages of available, but the majority.</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    
-                                    <li>
-                                    	<div class="slide">
-                                            <img src="images/pic_home_slider_4.jpg" alt="" />
-                                            <div class="caption">
-                                                <p class="title">Many desktop publishing packages and web page.</p>
-                                                <p>There are many variations of passages of available, but the majority have suffered alteration in some form, by injected humour, or randomised, but the majority have suffered alteration in some form, by injected humour, or randomised.</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                            
-                            <script type="text/javascript">
-								$(function () {
-									$('#home_slider').flexslider({
-										animation : 'slide',
-										controlNav : true,
-										directionNav : true,
-										animationLoop : true,
-										slideshow : false,
-										useCSS : false
-									});
-									
-								});
-							</script>
-                        </div>
+                        <h2>Top News</h2>
                         
-                        <div class="line_2" style="margin:34px 0px 28px;"></div>
+                        <p class="general_subtitle">Eestablished fact that a reader will be distracted by the readable content of a page when looking at its layout are many variations of passages have suffered alteration.</p>
                         
-                        <div class="block_home_col_1">
-                        	<div class="block_home_post">
-								<div class="pic">
-									<a href="news_post.html" class="w_hover">
-										<img src="images/pic_home_news_1.jpg" alt="" />
-										<span></span>
-									</a>
-								</div>
-                                        
-								<div class="text">
-									<p class="title"><a href="news_post.html">There are many variations of of available, but the majority.</a></p>
-									<div class="date"><p>11 July, 2012</p></div>
-                                    <div class="icons">
-                                    	<ul>
-                                        	<li><a href="#" class="views">56</a></li>
-                                        </ul>
-                                    </div>
-								</div>
-							</div>
-                            <div class="line_3" style="margin:14px 0px 17px;"></div>
-                            
-                            <div class="block_home_post">
-								<div class="pic">
-									<a href="news_post.html" class="w_hover">
-										<img src="images/pic_home_news_2.jpg" alt="" />
-										<span></span>
-									</a>
-								</div>
-                                        
-								<div class="text">
-									<p class="title"><a href="news_post.html">Variations of of available, but the majority have suffered.</a></p>
-									<div class="date"><p>11 July, 2012</p></div>
-                                    <div class="icons">
-                                    	<ul>
-                                        	<li><a href="#" class="views">74</a></li>
-                                        </ul>
-                                    </div>
-								</div>
-							</div>
-                            <div class="line_3" style="margin:14px 0px 17px;"></div>
-                            
-                            <div class="block_home_post">
-								<div class="pic">
-									<a href="news_post.html" class="w_hover">
-										<img src="images/pic_home_news_3.jpg" alt="" />
-										<span></span>
-									</a>
-								</div>
-                                        
-								<div class="text">
-									<p class="title"><a href="news_post.html">Majority alteration in some form, by injected humour.</a></p>
-									<div class="date"><p>11 July, 2012</p></div>
-                                    <div class="icons">
-                                    	<ul>
-                                        	<li><a href="#" class="views">88</a></li>
-                                        </ul>
-                                    </div>
-								</div>
-							</div>
-                            
-                        </div>
+                        <div class="line_4" style="margin:0px 0px 22px;"></div>
                         
-                        <div class="block_home_col_2">
-                        	<div class="line_3 first" style="margin:14px 0px 17px;"></div>
-                            <div class="block_home_post">
-								<div class="pic">
-									<a href="news_post.html" class="w_hover">
-										<img src="images/pic_home_news_4.jpg" alt="" />
-										<span></span>
-									</a>
-								</div>
-                                        
-								<div class="text">
-									<p class="title"><a href="news_post.html">Many variations of of available, but the majority.</a></p>
-									<div class="date"><p>11 July, 2012</p></div>
-                                    <div class="icons">
-                                    	<ul>
-                                        	<li><a href="#" class="views">56</a></li>
-                                        </ul>
-                                    </div>
-								</div>
-							</div>
-                            <div class="line_3" style="margin:14px 0px 17px;"></div>
-                            
-                            <div class="block_home_post">
-								<div class="pic">
-									<a href="news_post.html" class="w_hover">
-										<img src="images/pic_home_news_5.jpg" alt="" />
-										<span></span>
-									</a>
-								</div>
-                                        
-								<div class="text">
-									<p class="title"><a href="news_post.html">Readable content of a page when looking readable content.</a></p>
-									<div class="date"><p>11 July, 2012</p></div>
-                                    <div class="icons">
-                                    	<ul>
-                                        	<li><a href="#" class="views">74</a></li>
-                                        </ul>
-                                    </div>
-								</div>
-							</div>
-                            <div class="line_3" style="margin:14px 0px 17px;"></div>
-                            
-                            <div class="block_home_post">
-								<div class="pic">
-									<a href="news_post.html" class="w_hover">
-										<img src="images/pic_home_news_6.jpg" alt="" />
-										<span></span>
-									</a>
-								</div>
-                                        
-								<div class="text">
-									<p class="title"><a href="news_post.html">Randomised words which don't look even slightly believable.</a></p>
-									<div class="date"><p>11 July, 2012</p></div>
-                                    <div class="icons">
-                                    	<ul>
-                                        	<li><a href="#" class="views">88</a></li>
-                                        </ul>
-                                    </div>
-								</div>
-							</div>
-                            
-                        </div>
-                        <div class="clearboth"></div>
-                        
-                        <div class="line_3" style="margin:14px 0px 13px;"></div>
-                        <a href="main_news.html" class="lnk_all_news fl">All News</a>
-                        <div class="clearboth"></div>
-                        <div class="line_3" style="margin:13px 0px 35px;"></div>
-                        
-                        <h3 style="font-size:16px;">Main News</h3>
-                        <div class="line_4" style="margin:-4px 0px 18px;"></div>
-                        
-                        <div class="block_topic_news">
-                        	<article class="block_topic_post">
-                            	<p class="title"><a href="news_post.html">Many desktop publishing packages and web page editors now use.</a></p>
-                                <div class="f_pic"><a href="news_post.html" class="general_pic_hover scale"><img src="images/pic_home_main_news_1.jpg" alt="" /></a></div>
-                                <p class="text">There are many variations of passages of available, but the majority have alteration.</p>
+                        <div class="block_main_news">
+                        	<article class="block_news_post_feature">
+                            	<div class="f_pic"><a href="news_post.html" class="general_pic_hover scale"><img src="images/pic_main_news_big.jpg" alt="" /></a></div>
+                                <h4 class="title"><a href="news_post.html">Publishing packages and web page editors now use.</a></h4>
+                                
                                 <div class="info">
                                 	<div class="date"><p>11 July, 2012</p></div>
                                     
                                     <div class="r_part">
-                                    	<div class="category"><p><a href="#">Business</a></p></div>
-                                        <a href="#" class="views">183</a>
+                                    	<div class="category">
+                                        	<p><a href="#">Technology</a></p>
+                                        </div>
+                                        
+                                        <a href="#" class="views">220</a>
                                     </div>
+                                    
+                                    <div class="clearboth"></div>
                                 </div>
                             </article>
                             
-                            <article class="block_topic_post">
-                            	<p class="title"><a href="news_post.html">Many desktop publishing packages and web page editors now use.</a></p>
-                                <div class="f_pic"><a href="news_post.html" class="general_pic_hover scale"><img src="images/pic_home_main_news_2.jpg" alt="" /></a></div>
-                                <p class="text">There are many variations of passages of available, but the majority have alteration.</p>
+                            <article class="block_news_post">
+                            	<div class="f_pic"><a href="news_post.html" class="general_pic_hover scale_small"><img src="images/pic_main_news_1.jpg" alt="" /></a></div>
+                                <p class="category"><a href="#">education</a></p>
+                                <p class="title"><a href="news_post.html">Many desktop publishing packages and web page.</a></p>
                                 <div class="info">
                                 	<div class="date"><p>11 July, 2012</p></div>
+                                    <a href="#" class="views">183</a>
                                     
-                                    <div class="r_part">
-                                    	<div class="category"><p><a href="#">Business</a></p></div>
-                                        <a href="#" class="views">183</a>
-                                    </div>
+                                    <div class="clearboth"></div>
                                 </div>
                             </article>
                             
-                            <article class="block_topic_post">
-                            	<p class="title"><a href="news_post.html">Many desktop publishing packages and web page editors now use.</a></p>
-                                <div class="f_pic"><a href="news_post.html" class="general_pic_hover scale"><img src="images/pic_home_main_news_3.jpg" alt="" /></a></div>
-                                <p class="text">There are many variations of passages of available, but the majority have alteration.</p>
+                            <article class="block_news_post">
+                            	<div class="f_pic"><a href="news_post.html" class="general_pic_hover scale_small"><img src="images/pic_main_news_2.jpg" alt="" /></a></div>
+                                <p class="category"><a href="#">business</a></p>
+                                <p class="title"><a href="news_post.html">Many desktop publishing packages and web page.</a></p>
                                 <div class="info">
                                 	<div class="date"><p>11 July, 2012</p></div>
+                                    <a href="#" class="views">183</a>
                                     
-                                    <div class="r_part">
-                                    	<div class="category"><p><a href="#">Business</a></p></div>
-                                        <a href="#" class="views">183</a>
-                                    </div>
+                                    <div class="clearboth"></div>
                                 </div>
                             </article>
                             
-                            <article class="block_topic_post">
-                            	<p class="title"><a href="news_post.html">Many desktop publishing packages and web page editors now use.</a></p>
-                                <div class="f_pic"><a href="news_post.html" class="general_pic_hover scale"><img src="images/pic_home_main_news_4.jpg" alt="" /></a></div>
-                                <p class="text">There are many variations of passages of available, but the majority have alteration.</p>
+                            <article class="block_news_post">
+                            	<div class="f_pic"><a href="news_post.html" class="general_pic_hover scale_small"><img src="images/pic_main_news_3.jpg" alt="" /></a></div>
+                                <p class="category"><a href="#">photography</a></p>
+                                <p class="title"><a href="news_post.html">Many desktop publishing packages and web page.</a></p>
                                 <div class="info">
                                 	<div class="date"><p>11 July, 2012</p></div>
+                                    <a href="#" class="views">183</a>
                                     
-                                    <div class="r_part">
-                                    	<div class="category"><p><a href="#">Business</a></p></div>
-                                        <a href="#" class="views">183</a>
-                                    </div>
+                                    <div class="clearboth"></div>
                                 </div>
                             </article>
                             
+                            <article class="block_news_post">
+                            	<div class="f_pic"><a href="news_post.html" class="general_pic_hover scale_small"><img src="images/pic_main_news_4.jpg" alt="" /></a></div>
+                                <p class="category"><a href="#">sport</a></p>
+                                <p class="title"><a href="news_post.html">Many desktop publishing packages and web page.</a></p>
+                                <div class="info">
+                                	<div class="date"><p>11 July, 2012</p></div>
+                                    <a href="#" class="views">183</a>
+                                    
+                                    <div class="clearboth"></div>
+                                </div>
+                            </article>
+                            
+                            <article class="block_news_post">
+                            	<div class="f_pic"><a href="news_post.html" class="general_pic_hover scale_small"><img src="images/pic_main_news_5.jpg" alt="" /></a></div>
+                                <p class="category"><a href="#">business</a></p>
+                                <p class="title"><a href="news_post.html">Many desktop publishing packages and web page.</a></p>
+                                <div class="info">
+                                	<div class="date"><p>11 July, 2012</p></div>
+                                    <a href="#" class="views">183</a>
+                                    
+                                    <div class="clearboth"></div>
+                                </div>
+                            </article>
+                            
+                            <article class="block_news_post">
+                            	<div class="f_pic"><a href="news_post.html" class="general_pic_hover scale_small"><img src="images/pic_main_news_6.jpg" alt="" /></a></div>
+                                <p class="category"><a href="#">video</a></p>
+                                <p class="title"><a href="news_post.html">Many desktop publishing packages and web page.</a></p>
+                                <div class="info">
+                                	<div class="date"><p>11 July, 2012</p></div>
+                                    <a href="#" class="views">183</a>
+                                    
+                                    <div class="clearboth"></div>
+                                </div>
+                            </article>
+                            
+                            <article class="block_news_post">
+                            	<div class="f_pic"><a href="news_post.html" class="general_pic_hover scale_small"><img src="images/pic_main_news_7.jpg" alt="" /></a></div>
+                                <p class="category"><a href="#">education</a></p>
+                                <p class="title"><a href="news_post.html">Many desktop publishing packages and web page.</a></p>
+                                <div class="info">
+                                	<div class="date"><p>11 July, 2012</p></div>
+                                    <a href="#" class="views">183</a>
+                                    
+                                    <div class="clearboth"></div>
+                                </div>
+                            </article>
+                            
+                            <article class="block_news_post">
+                            	<div class="f_pic"><a href="news_post.html" class="general_pic_hover scale_small"><img src="images/pic_main_news_8.jpg" alt="" /></a></div>
+                                <p class="category"><a href="#">business</a></p>
+                                <p class="title"><a href="news_post.html">Many desktop publishing packages and web page.</a></p>
+                                <div class="info">
+                                	<div class="date"><p>11 July, 2012</p></div>
+                                    <a href="#" class="views">183</a>
+                                    
+                                    <div class="clearboth"></div>
+                                </div>
+                            </article>
+                            
+                            <article class="block_news_post">
+                            	<div class="f_pic"><a href="news_post.html" class="general_pic_hover scale_small"><img src="images/pic_main_news_9.jpg" alt="" /></a></div>
+                                <p class="category"><a href="#">sport</a></p>
+                                <p class="title"><a href="news_post.html">Many desktop publishing packages and web page.</a></p>
+                                <div class="info">
+                                	<div class="date"><p>11 July, 2012</p></div>
+                                    <a href="#" class="views">183</a>
+                                    
+                                    <div class="clearboth"></div>
+                                </div>
+                            </article>
+                            
+                            <article class="block_news_post">
+                            	<div class="f_pic"><a href="news_post.html" class="general_pic_hover scale_small"><img src="images/pic_main_news_10.jpg" alt="" /></a></div>
+                                <p class="category"><a href="#">photography</a></p>
+                                <p class="title"><a href="news_post.html">Many desktop publishing packages and web page.</a></p>
+                                <div class="info">
+                                	<div class="date"><p>11 July, 2012</p></div>
+                                    <a href="#" class="views">183</a>
+                                    
+                                    <div class="clearboth"></div>
+                                </div>
+                            </article>
+                            
+                            <article class="block_news_post">
+                            	<div class="f_pic"><a href="news_post.html" class="general_pic_hover scale_small"><img src="images/pic_main_news_11.jpg" alt="" /></a></div>
+                                <p class="category"><a href="#">sport</a></p>
+                                <p class="title"><a href="news_post.html">Many desktop publishing packages and web page.</a></p>
+                                <div class="info">
+                                	<div class="date"><p>11 July, 2012</p></div>
+                                    <a href="#" class="views">183</a>
+                                    
+                                    <div class="clearboth"></div>
+                                </div>
+                            </article>
+                            
+                            <article class="block_news_post">
+                            	<div class="f_pic"><a href="news_post.html" class="general_pic_hover scale_small"><img src="images/pic_main_news_12.jpg" alt="" /></a></div>
+                                <p class="category"><a href="#">video</a></p>
+                                <p class="title"><a href="news_post.html">Many desktop publishing packages and web page.</a></p>
+                                <div class="info">
+                                	<div class="date"><p>11 July, 2012</p></div>
+                                    <a href="#" class="views">183</a>
+                                    
+                                    <div class="clearboth"></div>
+                                </div>
+                            </article>
+                            
+                            <article class="block_news_post">
+                            	<div class="f_pic"><a href="news_post.html" class="general_pic_hover scale_small"><img src="images/pic_main_news_13.jpg" alt="" /></a></div>
+                                <p class="category"><a href="#">photographt</a></p>
+                                <p class="title"><a href="news_post.html">Many desktop publishing packages and web page.</a></p>
+                                <div class="info">
+                                	<div class="date"><p>11 July, 2012</p></div>
+                                    <a href="#" class="views">183</a>
+                                    
+                                    <div class="clearboth"></div>
+                                </div>
+                            </article>
+                            
+                            <article class="block_news_post">
+                            	<div class="f_pic"><a href="news_post.html" class="general_pic_hover scale_small"><img src="images/pic_main_news_14.jpg" alt="" /></a></div>
+                                <p class="category"><a href="#">business</a></p>
+                                <p class="title"><a href="news_post.html">Many desktop publishing packages and web page.</a></p>
+                                <div class="info">
+                                	<div class="date"><p>11 July, 2012</p></div>
+                                    <a href="#" class="views">183</a>
+                                    
+                                    <div class="clearboth"></div>
+                                </div>
+                            </article>
+                            
+                            <article class="block_news_post">
+                            	<div class="f_pic"><a href="news_post.html" class="general_pic_hover scale_small"><img src="images/pic_main_news_15.jpg" alt="" /></a></div>
+                                <p class="category"><a href="#">education</a></p>
+                                <p class="title"><a href="news_post.html">Many desktop publishing packages and web page.</a></p>
+                                <div class="info">
+                                	<div class="date"><p>11 July, 2012</p></div>
+                                    <a href="#" class="views">183</a>
+                                    
+                                    <div class="clearboth"></div>
+                                </div>
+                            </article>
+                            
+                            <article class="block_news_post">
+                            	<div class="f_pic"><a href="news_post.html" class="general_pic_hover scale_small"><img src="images/pic_main_news_16.jpg" alt="" /></a></div>
+                                <p class="category"><a href="#">photography</a></p>
+                                <p class="title"><a href="news_post.html">Many desktop publishing packages and web page.</a></p>
+                                <div class="info">
+                                	<div class="date"><p>11 July, 2012</p></div>
+                                    <a href="#" class="views">183</a>
+                                    
+                                    <div class="clearboth"></div>
+                                </div>
+                            </article>
+                            
+                            <article class="block_news_post">
+                            	<div class="f_pic"><a href="news_post.html" class="general_pic_hover scale_small"><img src="images/pic_main_news_17.jpg" alt="" /></a></div>
+                                <p class="category"><a href="#">business</a></p>
+                                <p class="title"><a href="news_post.html">Many desktop publishing packages and web page.</a></p>
+                                <div class="info">
+                                	<div class="date"><p>11 July, 2012</p></div>
+                                    <a href="#" class="views">183</a>
+                                    
+                                    <div class="clearboth"></div>
+                                </div>
+                            </article>
+                            
+                            <article class="block_news_post">
+                            	<div class="f_pic"><a href="news_post.html" class="general_pic_hover scale_small"><img src="images/pic_main_news_18.jpg" alt="" /></a></div>
+                                <p class="category"><a href="#">Sport</a></p>
+                                <p class="title"><a href="news_post.html">Many desktop publishing packages and web page.</a></p>
+                                <div class="info">
+                                	<div class="date"><p>11 July, 2012</p></div>
+                                    <a href="#" class="views">183</a>
+                                    
+                                    <div class="clearboth"></div>
+                                </div>
+                            </article>
                         </div>
                         
-                        <div class="line_3" style="margin:20px 0px 24px;"></div>
+                        <div class="line_2" style="margin:8px 0px 25px;"></div>
                         
                         <div class="block_pager">
                         	<a href="#" class="prev">Previous</a>
@@ -651,8 +621,8 @@
                             
                             <div class="pages">
                             	<ul>
-                                	<li class="current"><a href="#">1</a></li>
-                                    <li><a href="#">2</a></li>
+                                	<li><a href="#">1</a></li>
+                                    <li class="current"><a href="#">2</a></li>
                                     <li><a href="#">3</a></li>
                                     <li><a href="#">4</a></li>
                                     <li><a href="#">5</a></li>
@@ -662,105 +632,6 @@
                             
                             <div class="clearboth"></div>
                         </div>
-                        
-                        <div class="line_2" style="margin:24px 0px 35px;"></div>
-                        
-                        <h3 style="font-size:16px;">Best Materials</h3>
-                        <div class="line_4" style="margin:-4px 0px 18px;"></div>
-                        
-                        <div class="block_best_materials">
-                        	<div class="slider">
-                                <div id="best_materials_slider" class="flexslider">
-                                    <ul class="slides">
-                                        <li>
-                                            <div class="block_best_material_post">
-                                                <div class="f_pic"><a href="news_post.html" class="w_hover"><img src="images/pic_home_best_materials_1.jpg" alt="" /><span></span></a></div>
-                                                <p class="title"><a href="news_post.html">Publishing packages and web page editors their.</a></p>
-                                                <div class="info">
-                                                    <div class="date"><p>08 July, 2012</p></div>
-                                                    <div class="category"><p><a href="#">Business</a></p></div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        
-                                        <li>
-                                            <div class="block_best_material_post">
-                                                <div class="f_pic"><a href="news_post.html" class="w_hover"><img src="images/pic_home_best_materials_2.jpg" alt="" /><span></span></a></div>
-                                                <p class="title"><a href="news_post.html">Publishing packages and web page editors their.</a></p>
-                                                <div class="info">
-                                                    <div class="date"><p>08 July, 2012</p></div>
-                                                    <div class="category"><p><a href="#">People</a></p></div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        
-                                        <li>
-                                            <div class="block_best_material_post">
-                                                <div class="f_pic"><a href="news_post.html" class="w_hover"><img src="images/pic_home_best_materials_3.jpg" alt="" /><span></span></a></div>
-                                                <p class="title"><a href="news_post.html">Publishing packages and web page editors their.</a></p>
-                                                <div class="info">
-                                                    <div class="date"><p>08 July, 2012</p></div>
-                                                    <div class="category"><p><a href="#">Technology</a></p></div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        
-                                        <li>
-                                            <div class="block_best_material_post">
-                                                <div class="f_pic"><a href="news_post.html" class="w_hover"><img src="images/pic_home_best_materials_4.jpg" alt="" /><span></span></a></div>
-                                                <p class="title"><a href="news_post.html">Publishing packages and web page editors their.</a></p>
-                                                <div class="info">
-                                                    <div class="date"><p>08 July, 2012</p></div>
-                                                    <div class="category"><p><a href="#">Business</a></p></div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        
-                                        <li>
-                                            <div class="block_best_material_post">
-                                                <div class="f_pic"><a href="news_post.html" class="w_hover"><img src="images/pic_home_best_materials_5.jpg" alt="" /><span></span></a></div>
-                                                <p class="title"><a href="news_post.html">Publishing packages and web page editors their.</a></p>
-                                                <div class="info">
-                                                    <div class="date"><p>08 July, 2012</p></div>
-                                                    <div class="category"><p><a href="#">People</a></p></div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        
-                                        <li>
-                                            <div class="block_best_material_post">
-                                                <div class="f_pic"><a href="news_post.html" class="w_hover"><img src="images/pic_home_best_materials_6.jpg" alt="" /><span></span></a></div>
-                                                <p class="title"><a href="news_post.html">Publishing packages and web page editors their.</a></p>
-                                                <div class="info">
-                                                    <div class="date"><p>08 July, 2012</p></div>
-                                                    <div class="category"><p><a href="#">Technology</a></p></div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            
-                            <script type="text/javascript">
-								$(function() {
-									$('#best_materials_slider').flexslider({
-										animation : 'slide',
-										controlNav : false,
-										directionNav : true,
-										animationLoop : false,
-										slideshow : false,
-										itemWidth: 213,
-										itemMargin: 0,
-										minItems: 1,
-										maxItems: 3,
-										move: 1,
-										useCSS : false
-									});
-								});
-							</script>
-                        </div>
-                        
-                        <div class="line_2" style="margin:20px 0px 0px;"></div>
                         
                     </div>
                     
